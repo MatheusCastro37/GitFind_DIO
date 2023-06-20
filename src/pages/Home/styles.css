@@ -5,10 +5,12 @@
     justify-content: flex-end;
 }
 
-.background{
-    height: 95vh;
+.background {
+    height: 85vh;
     position: absolute;
     left: 0;
+    top: 50px;
+    opacity: 0.1;
 }
 
 .info{
@@ -19,6 +21,7 @@
 }
 
 input{
+    color: #FFFFFF;
     border: 1px solid #999999;
     border-radius: 22px;
     min-width: 250px;
@@ -69,4 +72,11 @@ button{
     font-size: 12px;
     margin: 0;
     margin: 20px 0 0 0;
+}
+
+.repositorio{
+    font-size: 32px;
+    color: #FFFFFF;
+    margin: 12px 0;
+    text-align: center;
 }
