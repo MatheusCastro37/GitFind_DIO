@@ -34,7 +34,7 @@ function App() {
         <img src={background} className="background" alt="backgroud app" />
         <div className="info">
           <div>
-            <input name="usuario" value={user} onChange={event => setUser(event.target.value)} placeholder="@username" />
+            <input name="usuario" value={user} onChange={event => setUser(event.target.value)} placeholder="UserName" />
             <button onClick={handleGetData}>Buscar</button>
           </div>
 
